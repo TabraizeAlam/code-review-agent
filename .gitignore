@@ -3,3 +3,5 @@ __pycache__/
 *.pyc
 *.pyo
 .DS_Store
+VIDEO_SCRIPT_PRIVATE.md
+review_*.md
