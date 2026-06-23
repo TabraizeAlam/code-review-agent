@@ -6,7 +6,7 @@ An automated multi-agent system that reviews Python code for bugs, security vuln
 
 ## Business Problem
 
-Meridian Capital's data engineering team manages critical pipelines handling $160B+ in investment data across client funds including LAPP, ATRF, HPSP, and others. Code issues in these pipelines — SQL injection vulnerabilities, resource leaks, missing error handling — can cause data quality failures, compliance exposure, and reprocessing costs.
+Meridian Capital's data engineering team manages critical pipelines handling investment data across client funds including FUND_A, FUND_B, FUND_C, and others. Code issues in these pipelines — SQL injection vulnerabilities, resource leaks, missing error handling — can cause data quality failures, compliance exposure, and reprocessing costs.
 
 Manual code review is time-consuming, inconsistent across reviewers, and often skips security checks entirely under delivery pressure.
 
@@ -125,8 +125,8 @@ When the report appears, press **Enter** to approve and save, or type a note bef
 
 | File | What it simulates | Has bugs? |
 |---|---|---|
-| `custodian_pipeline.py` | State Street position file ingestion | Yes |
-| `performance_attribution.py` | Alpha and tracking error calculations for LAPP/ATRF/HPSP | Yes |
+| `custodian_pipeline.py` | Custodian position file ingestion | Yes |
+| `performance_attribution.py` | Alpha and tracking error calculations for FUND_A/FUND_B/FUND_C | Yes |
 | `databricks_etl.py` | Bronze → Silver → Gold pipeline on ADLS | Yes |
 | `databricks_etl_clean.py` | Same pipeline, production-ready patterns | Clean |
 | `dbt_reporting_models.py` | dbt models for portfolio summary and performance reporting | Yes |

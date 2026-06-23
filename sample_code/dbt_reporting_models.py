@@ -42,7 +42,7 @@ def model(dbt, session):
 def model(dbt, session):
     import pandas as pd
 
-    portfolio_ids = ["LAPP", "ATRF", "HPSP", "MAHB", "SFO", "AHC", "WCB"]
+    portfolio_ids = ["FUND_A", "FUND_B", "FUND_C", "FUND_D", "FUND_E", "FUND_F", "FUND_G"]
     enriched = []
 
     for pid in portfolio_ids:

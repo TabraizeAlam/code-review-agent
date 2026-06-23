@@ -6,7 +6,7 @@ from datetime import datetime
 DB_CONN     = "Server=inv-sql-server.database.windows.net;Database=InvestmentData;Uid=pipeline_user;Pwd=Pipeline@Pass123"
 CUST_KEY    = "custodian-api-key-placeholder-12345"
 
-PORTFOLIO_IDS = ["LAPP", "ATRF", "HPSP", "MAHB", "SFO", "AHC", "WCB"]
+PORTFOLIO_IDS = ["FUND_A", "FUND_B", "FUND_C", "FUND_D", "FUND_E", "FUND_F", "FUND_G"]
 
 
 def get_daily_holdings(portfolio_id: str, valuation_date: str) -> list:

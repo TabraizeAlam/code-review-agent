@@ -8,7 +8,7 @@ ADLS_KEY     = "storage-account-key-placeholder-replace-with-keyvault"
 ADLS_ACCOUNT = "investmentdatalake"
 SQL_PASSWORD = "Sql@Pass123"
 
-PORTFOLIO_IDS = ["LAPP", "ATRF", "HPSP", "MAHB", "SFO", "AHC", "WCB"]
+PORTFOLIO_IDS = ["FUND_A", "FUND_B", "FUND_C", "FUND_D", "FUND_E", "FUND_F", "FUND_G"]
 
 
 def ingest_holdings_bronze(report_date: str):

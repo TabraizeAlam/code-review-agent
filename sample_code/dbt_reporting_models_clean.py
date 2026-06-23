@@ -4,7 +4,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-PORTFOLIO_IDS = ["LAPP", "ATRF", "HPSP", "MAHB", "SFO", "AHC", "WCB"]
+PORTFOLIO_IDS = ["FUND_A", "FUND_B", "FUND_C", "FUND_D", "FUND_E", "FUND_F", "FUND_G"]
 VALID_TARGETS = {"dev", "staging", "prod"}
 
 

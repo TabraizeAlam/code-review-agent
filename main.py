@@ -14,7 +14,7 @@ import numpy as np
 
 DB_CONN = "Server=inv-sql-server.database.windows.net;Database=InvestmentData;Uid=pipeline_user;Pwd=Pipeline@Pass123"
 
-PORTFOLIO_IDS = ["LAPP", "ATRF", "HPSP", "MAHB", "SFO", "AHC", "WCB"]
+PORTFOLIO_IDS = ["FUND_A", "FUND_B", "FUND_C", "FUND_D", "FUND_E", "FUND_F", "FUND_G"]
 
 
 def get_portfolio_holdings(portfolio_id: str, valuation_date: str) -> list:

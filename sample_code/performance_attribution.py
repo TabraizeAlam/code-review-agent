@@ -5,13 +5,13 @@ import pyodbc
 DB_CONN = "Server=inv-sql-server.database.windows.net;Database=InvestmentData;Uid=perf_user;Pwd=Perf@Pass123"
 
 INDEX_MAP = {
-    "LAPP":  "MSCI World (CAD)",
-    "ATRF":  "MSCI World (CAD)",
-    "HPSP":  "FTSE Canada Universe Bond",
-    "MAHB":  "CPI + 4%",
-    "SFO":   "MSCI World (CAD)",
-    "AHC":   "CPI + 4%",
-    "WCB":   "FTSE Canada 91-Day T-Bill",
+    "FUND_A": "MSCI World (CAD)",
+    "FUND_B": "MSCI World (CAD)",
+    "FUND_C": "FTSE Canada Universe Bond",
+    "FUND_D": "CPI + 4%",
+    "FUND_E": "MSCI World (CAD)",
+    "FUND_F": "CPI + 4%",
+    "FUND_G": "FTSE Canada 91-Day T-Bill",
 }
 
 
